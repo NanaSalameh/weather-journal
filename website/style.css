@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    background:url(image.jpg);}
+
+.container {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8fbfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+   
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #333;
+}
+
+label {
+    font-family: sans-serif;
+    display: block;
+    margin: 15px 0 5px;
+    color: #0a0303;
+
+}
+
+input[type="text"], textarea {
+    width: 96%;
+    padding: 10px;
+    color: rgb(11, 15, 238);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(191, 225, 241);
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    background-color: #2f9bd9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor:pointer;
+    margin-left: 200px;
+    margin-top: 10px;
+
+}
+
+#entryHolder div {
+    background: rgb(191, 225, 241);
+    padding: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    color: #333;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+#error {
+    background: #fa5801;
+    color: #eff1f3;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0;
+    width:100%;
+}
+
+#entryHolder div:hover {
+    background: #f7f9fa;
+    opacity: 0.6;
+
+}
+
+button:hover {
+    background-color: #0a427f;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
